@@ -54,7 +54,7 @@ export default function SectionOne(){
 
 interface tileType{
     id:number;
-    icon:any;
+    icon:string;
     text1:string;
     text2:string;
 }
