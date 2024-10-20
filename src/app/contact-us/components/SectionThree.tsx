@@ -28,7 +28,14 @@ export default function SectionThree(){
     );
 }
 
-function InputText({placeholder,name,value,handleChange}:any){
+interface InputType{
+    placeholder:string,
+    name:string,
+    value:string,
+    handleChange:any
+}
+
+function InputText({placeholder,name,value,handleChange}:InputType){
     return (
         <input 
         placeholder={placeholder}
